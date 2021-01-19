@@ -3,9 +3,6 @@
 $fake_data_json = file_get_contents('https://api.namefake.com/');
 
 $fake = json_decode($fake_data_json);
-//$name_fake = $fake->{'name'};
-//$address_fake = $fake->{'address'};
-
 ?>
 
 <?php
